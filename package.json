@@ -1,0 +1,9 @@
+{
+	"name":"facebook-auto-post",
+	"description":"Post to a facebook wall",
+	"version":"0.0.1",
+	"private":"true",
+	"dependencies":{
+		"request":"2.x"
+	}
+}
