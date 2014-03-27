@@ -13,7 +13,7 @@ var facebook = (function() {
 			if(message && pageId && accessToken) {
 				var url = baseUrl + pageId + "/feed";
 
-				var body = "message=" + message + "&access_token=" + accessToken;
+				var body = "message=" + encodeURIComponent(message) + "&access_token=" + accessToken;
 
 				request({
 					url:url,
