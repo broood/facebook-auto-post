@@ -1,5 +1,5 @@
 var request = require("request");
-var baseUrl = "https://graph.facebook.com/";
+var baseUrl = "https://graph.facebook.com/v2.0/";
 
 var facebook = (function() {
 	return {
